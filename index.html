@@ -6,14 +6,19 @@
 <head>
 <title> SASE at Penn</title>
     
-<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+
 <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic' rel='stylesheet' type='text/css'>
 
 <style>
+    span{
+        margin: 0; 
+    }
 .liteAccordion {
     text-align: left;
-    font-size: 2em;
+    
     line-height: 24px;
     font-family: 'Voltaire', Verdana, Arial, sans-serif;
     -webkit-backface-visibility: hidden;
@@ -39,8 +44,7 @@
     list-style-type: none }
     
 .liteAccordion .slide > h2 {
-    color: black;
-    font-size: 3em;
+    font-size: .8em;
     font-weight: normal;
     margin: 0;
     z-index: 100;
@@ -48,6 +52,7 @@
     top: 0;
     left: 0;
     width: 20%; 
+    
     -webkit-backface-visibility: hidden; /* fixes chrome bug */
     -webkit-transform: translateX(-100%) rotate(-90deg);
     -webkit-transform-origin: right top;
@@ -63,7 +68,7 @@
     padding-right: 8%;
     text-align: right;
     height: 90%;
-    margin-top: 5px;
+   
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -108,21 +113,17 @@
 
 /****************************************** Basic */
 .liteAccordion .slide > h2 { 
-    font-size: 2em; 
+    font-size: 2.5em; 
     background: white; 
     height: 200px; 
-    color: #333; 
+    color: #0CEDB5;
+    opacity: 0.5; 
     line-height: 100%; 
     height: 60px; 
     
     }
 
 
-</style>
-    
-    
-<style>
-    
 html{
     overflow-x: hidden;
 }
@@ -138,7 +139,7 @@ html{
    
     width: 100%; 
     position: absolute;
-    top: 20%; 
+    top: 5%; 
     left: auto;
     right: auto; 
 }
@@ -166,7 +167,7 @@ html{
     
 .innercaption {
     
-    opacity: 0.05; 
+    opacity: 0.2; 
     font-size: 0.3em; 
     transition: opacity 1100ms;
 }
@@ -182,6 +183,29 @@ html{
     position: relative; 
     margin-left: 10%; 
     margin-top: 20%; 
+}
+    
+.thing {
+    display: block; 
+    margin-top: 2%; 
+}
+    
+        
+.container {
+    
+    margin-top: 3%; 
+}
+    
+p {
+    font-family: 'Merriweather'; 
+    font-size: 0.75em;
+    font-weight: 300; 
+    font-style: italic;
+}
+    
+a {
+    text-decoration: none; 
+    color: gray; 
 }
 </style>
 </head>
@@ -223,33 +247,89 @@ E
 <div id="yourdiv">
   <ol>
      <li class="slide">
-        <h2><span>What's Up</span></h2>
-        <div>
+         
+        <h2><span>What's Up <img src="sase.png" width="" height="75"></span></h2>
+         <div class="container">
+         
+        <div class="thing">
             Apply to SASE Board!
+            <p> Due February 8th. </p>
         </div>
+             </div>
      </li>
      <li>
-        <h2><span>Board</span></h2>
-        <div>
+        <h2><span>Board <img src="board.png" width="" height="100"></span></h2>
+        <div class="container">
            
-               
+           <div class ="thing"> <name>Aaron Guo</name>
+            <p><i> Systems, Finance, &amp; Envr Plcy and Mgmt</i></p>
+            </div>
+            <div class ="thing">
+            <name>Aashish Lalani</name>
+            <p><i> Comp Sci &amp; Math</i></p>
+            </div>
+            <div class ="thing">
+            <name>Nancy Huang</name>
+            <p>Comp Sci &amp;  Fine Arts </p>
+          </div>
+            <div class ="thing">
+                
+            <div class="thing">
+            <name>Riddhi Sanwal</name>
+            <p>NETS </p>
+     </div>
+            
+            <div class ="thing">
+             <name>Shawn Wang</name>
+            <p> BIBB </p>
+         </div>
+            
         </div>
      </li>
        <li>
-        <h2><span>Professional</span></h2>
-        <div>
+        <h2><span>Professional <img src="tie.png" width="" height="100"> </span></h2>
            
+        <div class="container">
+          <div class="thing"><name> Professor Lunch Series</name>
+              <p> Find out how Rajiv got his first job without a scheduled interview or how Sadashige is a Jackie-of-all-trades. For free lunches and free life advice, stay tuned! </p>
+              </div> 
+            </br>
+           
+            <div class="thing">
+             <name> Internship Panel</name>
+                 <p> Woohooo. </p>
+                </div>
+      </br>
+            <div class="thing">
+             <name> Alumni </name>
+                 <p> SASE connections are amazeballs. </p>
+                </div>
                
         </div>
      </li>
      <li>
-        <h2><span>Cultural</span></h2>
-        <div></div>
+        <h2><span>Community <img src="boba2.png" width="" height="100"></span></h2>
+         <div class="container">
+       <div class="thing">
+             <name> Build-A-Penguin</name>
+                 <p> Literally give birth to a baby penguin. </p>
+                </div>
+        </div>
+             
+         
      </li>
        
      <li>
-        <h2><span> Find Us</span></h2>
-        <div></div>
+        <h2><span> Find Us<img src="heart.png" width="" height="100"></span></h2>
+        <div class="container">
+            <name> Join our crew. </name>
+                <p>Contact pennsase@gmail.com </p>
+            
+            <name> <a href="#"> Facebook.</a> </name>
+            <name> <a href="#"> Subscribe.</a> </name>
+            </br>
+            
+         </div>
      </li>
   </ol>
   
